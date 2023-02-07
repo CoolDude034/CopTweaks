@@ -1,0 +1,46 @@
+<EasyInstall>
+    <Name>WantedTweaks</Name>
+    <Author>me</Author>
+	<Version>1.0.0</Version>
+	<Metadata></Metadata>
+	<Addons>
+		<Addon name="custom_peds">
+			<StreamingFiles>peds/models</StreamingFiles>
+			<DataFiles>peds</DataFiles>
+		</Addon>
+	</Addons>
+    <Replacements>
+        <Replacement name="Meta File Changes">
+            <!-- Replacing the full dispatch meta file with a new one from a subfolder -->
+            <FileReplacement>
+                <GamePath>update:/common/data/dispatch.meta</GamePath>
+                <FilePath>data/dispatch.meta</FilePath>
+            </FileReplacement>
+			
+            <FileReplacement>
+                <GamePath>update:/common/data/ai/combatbehavior.meta</GamePath>
+                <FilePath>data/combatbehavior.meta</FilePath>
+            </FileReplacement>
+
+            <FileReplacement>
+                <GamePath>update:/common/data/ai/ambientpedmodelsets.meta</GamePath>
+                <FilePath>data/ambientpedmodelsets.meta</FilePath>
+            </FileReplacement>
+
+            <FileReplacement>
+                <GamePath>update:/common/data/levels/gta5/popcycle.dat</GamePath>
+                <FilePath>data/popcycle.dat</FilePath>
+            </FileReplacement>
+			
+            <FileReplacement>
+                <GamePath>update:/x64/levels/gta5/scenario</GamePath>
+                <FilePath>scenario/elysian_island.ymt</FilePath>
+            </FileReplacement>
+			
+        </Replacement>
+		
+        <Replacement name="policet_noose">
+            <FileReplacements>vehicles/replace</FileReplacements>
+        </Replacement>
+    </Replacements>
+</EasyInstall>

@@ -4,6 +4,7 @@ Changes the way cops are spawned and other minor tweaks
 About:
 
 This mod changes how the cops are dispatched. Cops no longer spawn trough dispatch.meta (with exceptions to certain units like Helis,Boats and Swat), instead are handled by the game's population
+
 This means that cops won't spawn infront of you or know where you are, and will spawn patrolling until they spot you or get alerted by your sounds
 
 Features:

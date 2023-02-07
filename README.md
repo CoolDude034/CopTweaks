@@ -19,6 +19,7 @@ Features:
 	* Increased Thresholds for raising wanted levels, 1-3 is left to default but 4-5 have been increased so 3 stars is bit longer
 	* 4-5 stars can either spawn NOOSE or FIB (only 1 per chase)
 	* Removed ImmediateDetectionRange and OnScreenImmediateDetectionRange (both values are 0.0f, so Stealth is possible now even if it makes higher wanted level cops dumb)
+	* Removed Herobrine
 
 Known Issues:
 * Cops can despawn if player too far away unlike dispatched ones (I am aware of this, and looking for a fix)

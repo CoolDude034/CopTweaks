@@ -45,4 +45,4 @@ Cpast for CombatTweaks
 
 x3mgamer for Merryweather FF fix, Police Transporter retexture, FIB peds
 
-Yard1 for NOOSE TRU (https://www.gta5-mods.com/player/noose-tru-ped-model)
+Yard1 for NOOSE TRU (CADPAT variant)

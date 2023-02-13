@@ -6,6 +6,7 @@ About:
 This mod changes how the cops are dispatched. Cops no longer spawn trough dispatch.meta (with exceptions to certain units like Helis,Boats and Swat), instead are handled by the game's population
 
 This means that cops don't know where you are, and will spawn patrolling until they spot you passing by or you are in range of their alert radius
+
 You probably should get a popcycle.dat (mod already contains one by default) that has spawn cops in traffic otherwise you get nothing up until you hit 3 stars
 
 Features:

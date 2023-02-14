@@ -10,7 +10,7 @@ This means that cops don't know where you are, and will spawn patrolling until t
 You probably should get a popcycle.dat (mod already contains one by default) that has spawn cops in traffic otherwise you get nothing up until you hit 3 stars
 
 Features:
-- Cop spawning is handled entirely by popcycle.dat, but there exceptions:
+- Cop spawning is handled entirely by popcycle.dat:
 	* Amount of patrols can be tuned in popcycle.dat's PercCopCars and PercCopPed values and maybe number next to VEH_COPCAR
 	* FIB/NOOSE take the role as pursuers and NOOSE TRU's as dropoff/assault teams in Annihilators
 	* polmav no longer spawns at the countryside areas

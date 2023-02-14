@@ -410,7 +410,6 @@
 				</Item>
 			</ConditionalVehicleSets>
 		</Vehicle>
-		<!-- Can't find any suitable cop model for boats, just imagine police boats are globopol or something than LSPD -->
 		<Vehicle>
 			<Name>POLICE_BOAT</Name>
 			<ConditionalVehicleSets>
@@ -420,6 +419,19 @@
 					</VehicleModels>
 					<PedModels>
 						<Ped>S_M_Y_Cop_01</Ped> 
+					</PedModels>
+				</Item>
+			</ConditionalVehicleSets>
+		</Vehicle>
+		<Vehicle>
+			<Name>SWAT_BOAT</Name>
+			<ConditionalVehicleSets>
+				<Item>
+					<VehicleModels>
+						<Vehicle>dinghy</Vehicle>
+					</VehicleModels>
+					<PedModels>
+						<Ped>s_m_y_swat_roadblock_01</Ped> 
 					</PedModels>
 				</Item>
 			</ConditionalVehicleSets>
@@ -578,7 +590,7 @@
 					<DispatchType>DT_PoliceBoat</DispatchType>
 					<NumPedsToSpawn value="6"/>
 					<DispatchVehicleSets>
-						<Dispatch>POLICE_BOAT</Dispatch>
+						<Dispatch>SWAT_BOAT</Dispatch>
 					</DispatchVehicleSets>
 				</Item>
 			</DispatchServices>
@@ -620,7 +632,7 @@
 					<DispatchType>DT_PoliceBoat</DispatchType>
 					<NumPedsToSpawn value="9"/>
 					<DispatchVehicleSets>
-						<Dispatch>POLICE_BOAT</Dispatch>
+						<Dispatch>SWAT_BOAT</Dispatch>
 					</DispatchVehicleSets>
 				</Item>
 			</DispatchServices>

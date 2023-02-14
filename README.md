@@ -11,7 +11,6 @@ You probably should get a popcycle.dat (mod already contains one by default) tha
 
 Features:
 - Cop spawning is handled entirely by popcycle.dat, but there exceptions:
-	* Sheriffs at 3 stars will still spawn at the countryside, since NOOSE was too OP and countryside doesn't have patrolling cops unless you want to sarcifice next-gen cars for cops back on the beat's popgroups.ymt (You can disable this if you have a modified traffic that includes sheriff cars patrolling)
 	* Amount of patrols can be tuned in popcycle.dat's PercCopCars and PercCopPed values and maybe number next to VEH_COPCAR
 	* FIB/NOOSE take the role as pursuers and NOOSE TRU's as dropoff/assault teams in Annihilators
 	* polmav no longer spawns at the countryside areas

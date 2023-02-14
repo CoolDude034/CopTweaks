@@ -6,12 +6,12 @@
 	<ImmediateDetectionRange value="0.0"/>
 	<OnScreenImmediateDetectionRange value="0.0f"/>
 	<LawSpawnDelayMin>
-		<SLOW value="20.0"/>
+		<SLOW value="30.0"/>
 		<MEDIUM value="10.0"/>
 		<FAST value="10.0"/>
 	</LawSpawnDelayMin>
 	<LawSpawnDelayMax>
-		<SLOW value="30.0"/>
+		<SLOW value="60.0"/>
 		<MEDIUM value="20.0"/>
 		<FAST value="20.0"/>
 	</LawSpawnDelayMax>

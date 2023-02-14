@@ -191,29 +191,6 @@
 			</ConditionalVehicleSets>
 		</Vehicle>
 		<Vehicle>
-			<Name>SHERIFF_CAR</Name>
-			<ConditionalVehicleSets>
-				<Item>
-					<ZoneType>VEHICLE_RESPONSE_ARMY_BASE</ZoneType>
-					<VehicleModels>
-						<Vehicle>crusader</Vehicle>
-					</VehicleModels>
-					<PedModels>
-						<Ped>S_M_M_Marine_01</Ped>
-					</PedModels>
-				</Item>
-				<Item>
-					<ZoneType>VEHICLE_RESPONSE_COUNTRYSIDE</ZoneType>
-					<VehicleModels>
-						<Vehicle>SHERIFF</Vehicle>
-					</VehicleModels>
-					<PedModels>
-						<Ped>S_M_Y_Sheriff_01</Ped>
-					</PedModels>
-				</Item>
-			</ConditionalVehicleSets>
-		</Vehicle>
-		<Vehicle>
 			<Name>POLICE_MOTORCYCLE</Name>
 			<ConditionalVehicleSets>
 				<Item>
@@ -302,6 +279,12 @@
 				</Item>
 				<Item>
 					<ZoneType>VEHICLE_RESPONSE_COUNTRYSIDE</ZoneType>
+					<VehicleModels>
+						<Vehicle>annihilator</Vehicle>
+					</VehicleModels>
+					<PedModels>
+						<Ped>S_M_Y_Swat_01</Ped> 
+					</PedModels>
 				</Item>
 				<Item>
 					<VehicleModels>
@@ -528,15 +511,8 @@
 		<WantedLevel3>
 			<DispatchServices>
 				<Item>
-					<DispatchType>DT_PoliceAutomobile</DispatchType>
-					<NumPedsToSpawn value="6"/>
-					<DispatchVehicleSets>
-						<Dispatch>SHERIFF_CAR</Dispatch>
-					</DispatchVehicleSets>
-				</Item>
-				<Item>
 					<DispatchType>DT_SwatAutomobile</DispatchType>
-					<NumPedsToSpawn value="6"/>
+					<NumPedsToSpawn value="8"/>
 					<DispatchVehicleSets>
 						<Dispatch>SWAT_3STAR</Dispatch>
 					</DispatchVehicleSets>
@@ -567,13 +543,6 @@
 		</WantedLevel3>
 		<WantedLevel4>
 			<DispatchServices>
-				<Item>
-					<DispatchType>DT_PoliceAutomobile</DispatchType>
-					<NumPedsToSpawn value="6"/>
-					<DispatchVehicleSets>
-						<Dispatch>SHERIFF_CAR</Dispatch>
-					</DispatchVehicleSets>
-				</Item>
 				<Item>
 					<DispatchType>DT_SwatAutomobile</DispatchType>
 					<NumPedsToSpawn value="6"/>

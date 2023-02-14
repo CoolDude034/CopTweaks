@@ -285,9 +285,6 @@
 					</PedModels>
 				</Item>
 				<Item>
-					<ZoneType>VEHICLE_RESPONSE_COUNTRYSIDE</ZoneType>
-				</Item>
-				<Item>
 					<VehicleModels>
 						<Vehicle>policet</Vehicle>
 					</VehicleModels>

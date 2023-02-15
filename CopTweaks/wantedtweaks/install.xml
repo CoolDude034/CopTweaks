@@ -18,8 +18,8 @@
             </FileReplacement>
 			
             <FileReplacement>
-                <GamePath>update:/common/data/ai/combatbehavior.meta</GamePath>
-                <FilePath>data/combatbehavior.meta</FilePath>
+                <GamePath>update:/common/data/ai/combatbehaviour.meta</GamePath>
+                <FilePath>data/combatbehaviour.meta</FilePath>
             </FileReplacement>
 
             <FileReplacement>

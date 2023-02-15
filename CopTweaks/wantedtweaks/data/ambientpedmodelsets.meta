@@ -107,7 +107,11 @@
       <Models>
         <Item>
           <Name>S_M_M_Marine_02</Name>
-          <Variations type="NULL" />
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions />
+            <PropRestrictions />
+            <LoadOut>LOADOUT_SECUR</LoadOut>
+          </Variations>
           <Probability value="1.000000" />
         </Item>
       </Models>

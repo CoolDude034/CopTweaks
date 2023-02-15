@@ -67,7 +67,11 @@
       <Models>
         <Item>
           <Name>S_M_Y_MARINE_02</Name>
-          <Variations type="NULL" />
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions />
+            <PropRestrictions />
+            <LoadOut>LOADOUT_DEFAULT</LoadOut>
+          </Variations>
           <Probability value="1.000000" />
         </Item>
       </Models>
@@ -97,7 +101,11 @@
       <Models>
         <Item>
           <Name>S_M_Y_ArmyMech_01</Name>
-          <Variations type="NULL" />
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions />
+            <PropRestrictions />
+            <LoadOut>LOADOUT_DEFAULT</LoadOut>
+          </Variations>
           <Probability value="1.000000" />
         </Item>
       </Models>

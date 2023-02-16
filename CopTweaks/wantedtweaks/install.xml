@@ -33,7 +33,7 @@
             </FileReplacement>
 			
             <FileReplacement>
-                <GamePath>update:/x64/levels/gta5/scenario</GamePath>
+                <GamePath>update:/x64/levels/gta5/scenario/elysian_island.ymt</GamePath>
                 <FilePath>scenario/elysian_island.ymt</FilePath>
             </FileReplacement>
 			

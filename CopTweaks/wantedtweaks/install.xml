@@ -26,6 +26,11 @@
                 <GamePath>update:/common/data/ai/ambientpedmodelsets.meta</GamePath>
                 <FilePath>data/ambientpedmodelsets.meta</FilePath>
             </FileReplacement>
+		
+            <FileReplacement>
+                <GamePath>update:/common/data/ai/loadouts.meta</GamePath>
+                <FilePath>data/loadouts.meta</FilePath>
+            </FileReplacement>
 
             <FileReplacement>
                 <GamePath>update:/common/data/levels/gta5/popcycle.dat</GamePath>

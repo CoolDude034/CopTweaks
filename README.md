@@ -21,6 +21,7 @@ Features:
 	* Increased HiddenEvasionTimes, with 4-5 stars being infinite (wait i don't wanna play with IV style search thing, well now you do or change it idc)
 	* Increased Thresholds for raising wanted levels, 1-3 is left to default but 4-5 have been increased so 3 stars is bit longer
 	* 4-5 stars can either spawn NOOSE or FIB (only 1 per chase)
+	* Random SWAT arsenal
 	* Removed ImmediateDetectionRange and OnScreenImmediateDetectionRange (both values are 0.0f, refer to vanilla dispatch.meta for their default values if you dont like this change)
 	* Removed Herobrine
 
